@@ -37,7 +37,6 @@ header {
 
 /* IMG */
 .me {
-  transform: rotate(10deg);
   transition: var(--transition);
   width: 20rem;
   height: 30rem;
@@ -49,10 +48,22 @@ header {
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-.me:hover{
-  transform: rotate(0deg);
 
+.me img{
+  animation: updown 3s linear infinite;
 }
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
 
 /* scroll down */
 .scroll__down {
