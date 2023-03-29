@@ -3,7 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/hiIMG.png";
 import HeaderSocials from "./HeaderSocials";
-
+import CV from '../../assets/cv.pdf'
 
 const Header = () => {
 
@@ -17,7 +17,7 @@ const Header = () => {
             <li>
               <a
               className="bg-[#707b99] text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#070714]"
-              href="">Resume</a>
+              href={CV} download>Resume</a>
             </li>
           </ul>
         </nav>
