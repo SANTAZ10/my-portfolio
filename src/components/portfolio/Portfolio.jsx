@@ -9,23 +9,9 @@ const data = [
     id: 1,
     image: "https://cdn.dribbble.com/userupload/4754373/file/original-69f34e248c3f5c678c3355a670f4a550.jpg?compress=1&resize=1024x768",
     title: "Project 1",
-    github: "https://github.com/user/project1",
-    demo: "https://example.com/project1-demo",
+    github: "https://github.com/SANTAZ10/skysphere.git",
+    demo: "https://skysphere.netlify.app/",
   },
-  {
-    id: 2,
-    image: "https://cdn.dribbble.com/userupload/4757561/file/original-c4d786f30df9fdb53239217c39900603.png?compress=1&resize=1024x768",
-    title: "Project 2",
-    github: "https://github.com/user/project2",
-    demo: "https://example.com/project2-demo",
-  },
-  {
-    id: 3,
-    image: "https://cdn.dribbble.com/userupload/4712306/file/original-0f121b8f65bd6bda9ad8135d92babf64.png?compress=1&resize=1024x768",
-    title: "Project 3",
-    github: "https://github.com/user/project3",
-    demo: "https://example.com/project3-demo",
-  }
   // Add more objects as needed
 ];
 
