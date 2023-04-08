@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import skysphere from "../../assets/skysphere.png";
 // import IMG1 from "../../assets/portfolio1.jpg";
 // import IMG2 from "../../assets/portfolio2.jpg";
 // import IMG3 from "../../assets/portfolio3.jpg";
@@ -7,7 +8,7 @@ import "./portfolio.css";
 const data = [
   {
     id: 1,
-    image: "https://cdn.dribbble.com/userupload/4754373/file/original-69f34e248c3f5c678c3355a670f4a550.jpg?compress=1&resize=1024x768",
+    image: skysphere,
     title: "Project 1",
     github: "https://github.com/SANTAZ10/skysphere.git",
     demo: "https://skysphere.netlify.app/",
