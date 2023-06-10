@@ -78,7 +78,7 @@ const Experience = () => {
               <GrNode className="experience_Details-icon" />
               <div>
                 <h4>Node.js</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
 
@@ -86,7 +86,7 @@ const Experience = () => {
               <SiMongodb className="experience_Details-icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
 
@@ -94,7 +94,7 @@ const Experience = () => {
               <SiExpress className="experience_Details-icon" />
               <div>
                 <h4>Express.js</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
 
@@ -102,7 +102,7 @@ const Experience = () => {
               <SiFirebase className="experience_Details-icon" />
               <div>
                 <h4>Firebase</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
           </div>
